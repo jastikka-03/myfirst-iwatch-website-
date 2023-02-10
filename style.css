@@ -1,0 +1,338 @@
+/* nav bar css styling start */
+
+/* iWatch text color */
+
+
+.head{
+    color: white;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+    font-weight: 900;
+    font-size: 14px;
+
+}
+
+.bg-dark{
+    background-color: #04204e !important;
+}
+
+nav ul a:hover{
+    background-color:#3f4650;
+    color: white;
+    
+}
+#navbarSupportedContent a:hover{
+    border-bottom: 2px solid #fff;
+}
+
+button{
+    margin-left: 70px;
+   }
+.btn{
+    border-radius: 20px;
+}
+.head{
+   align-items: left;
+} 
+.navbar-brand{
+    text-align: right;
+}  
+#navbarSupportedContent a{
+    color:#fff;
+    border-bottom: 2px solid transparent;
+}
+/* nav bar css styling end */
+
+
+/* section section css styling start*/
+.secondsection{
+    height: 400px;
+    background-color:  #EEEDE7;
+    
+  
+}
+
+.secondsectionclass{
+    max-width: 800px;
+    margin-left: 300px ;
+   
+}
+
+.secondsectionclass .floating-image.right{
+    float: right;
+}
+
+.secondsectionclass .floating-image{
+    max-width: 500px;
+    padding-right: 80px;
+}
+
+.align{
+    padding-top: 40px;
+}
+
+.content{
+    text-align: left;
+    margin-left: 220px;
+}
+
+/* section section css styling end*/
+
+
+/* third section styling start */
+.third{
+    height: 330px;
+    padding-left: 160px;
+    padding-right: 160px;
+}
+
+.thirdimg img{
+    float: left;
+   
+} 
+
+
+.sidethird{
+    text-align: left;
+    padding-right: 10px;
+    border: 1px none;
+    padding-left: 10px;
+    height: 300px;
+    padding-right: 80px;
+}
+
+
+table,th,td{
+    width: 430px;
+    height: 90px;
+    padding-left: 7px;
+    padding: 10px;
+   
+   
+}
+
+/* third section styling end */
+
+/* fourth section css styling start */
+
+.fourth{
+    background-color: #EEEDE7;
+    margin-top: 1px;
+}
+
+.head3{
+    padding-top: 2px;
+    text-align: center;
+    
+}
+
+._hr{
+    border-top: 2px solid orangered;
+    width: 70px;
+    text-align: justify;
+    padding-left: 5px;
+    margin-left: 600px;
+  
+}
+
+.items{
+    padding-left: 180px;
+    padding-right: 130px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+    
+   
+}
+
+.item{
+    padding: 10px;
+   
+
+}
+
+.portall{
+    border: 3px solid black;
+}
+
+h3{
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+/* fourth section css styling end */
+
+/* fifth section css styling start */
+
+.head5{
+   
+    text-align: center;
+  
+    height: 100px;
+    padding-top: 10px;
+}
+.head5 h5{
+    color: grey;
+}
+.head5 h3{
+    color: black;
+}
+
+.fifth{
+    
+    padding-top: 30px;
+    
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    height: 400px;
+    padding-left: 180px;
+    padding-right: 180px;
+  
+    
+}
+table tr td{
+    text-align: left;
+}
+
+/* fifth section css styling end */
+
+/* six css styling start */
+
+
+._six{
+    background-color:#EEEDE7;
+}
+
+.six{
+   
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    padding-left: 180px;
+    padding-right: 180px;
+    height: 200px;
+  
+   
+
+}
+.radio{
+    padding-left: 570px;
+    padding-bottom:3px;
+ }
+
+ /* six css styling end  */
+
+ /* seven css styling start */
+ .seven{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding: 5px;
+    padding-left: 180px;
+    padding-right: 180px;
+    height: 220px;
+    padding-bottom: 5px;
+   
+}
+.listh{    list-style: none;   }
+.listh li:before { content: '> '}
+.listh li:before {
+    color:darkorange;
+}
+.iconlast{
+    padding-left: 1px;
+}
+.iconlast ul li{
+    list-style-type: none;
+    float: right;
+    padding: 5px;
+    
+
+}
+address { 
+    display: block;
+    font-style: italic;
+  } 
+ /* seven css styling end */
+
+ /* eight css styling start */
+ span{
+    padding-left: 600px;
+}
+.color{
+    color: white;
+    padding-left: 67px;
+}
+ /* eight css styling end */
+
+ /* nine styling start */
+ .pro{
+    padding-right: 30px;
+}
+ /* nine styling end */
+
+ /* ten  styling start */
+ .proimg{
+    height: 650px;
+    padding: 100px;
+    padding-top: 50px;
+    padding-left: 200px;
+}
+.proimg img{
+    float: left;
+    height:450px;
+    width: 450px;
+    
+}
+.sidep{
+    padding-right:100px;
+}
+.prod1{
+    width: 400px;
+    height: 250px;
+    padding: 20px;
+    border:1px ;
+    background-color:#f4f4f6;
+    float: right;
+}
+.prod2{
+    width: 400px;
+    height: 300px;
+    padding: 20px;
+    border:1px none;
+    float: right;
+}
+/* ten styling end */
+.head5{
+    width: 100%;
+    height: 20px;
+    margin-bottom: 40px;
+}
+.fifth{
+    width: 100%;
+    height: 350px;
+}
+._six{
+    width: 100%;
+    height: 350px;
+}
+.head3{
+    height: 100px;
+}
+.fourth{
+    height: 1050px;
+}
+.rowicon{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.row{
+    padding: 10px;
+}
+.iconlast{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+
+}
+.eight2{
+    padding-bottom: 2px;
+}
