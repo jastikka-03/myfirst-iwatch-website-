@@ -12,13 +12,12 @@
     font-size: 14px;
 
 }
-
 .bg-dark{
     background-color: #04204e !important;
 }
 
 nav ul a:hover{
-    background-color:#3f4650;
+    background-color:blue;
     color: white;
     
 }
