@@ -17,10 +17,11 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"  />  <!-- Custom CSS -->
   <link rel="stylesheet" href="./style.css">
   <!-- title -->
+  
   <title>iwatch</title>
 
 </head>
-<body>
+<body >
 
 
  <!-- navbar start -->
@@ -40,30 +41,29 @@
       
     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
       <li class="nav-item">
-        <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+        <a class="nav-link active"  aria-current="page" href="./index.html">Home</a>
       </li>
       <li class="nav-item">
-          <a class="nav-link " aria-current="page" href="#">About Us</a>
+          <a class="nav-link  active " aria-current="page" href="#">About Us</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link " aria-current="page" href="#">Services</a>
+          <a class="nav-link  active" aria-current="page" href="#" onclick="window.location.href = 'error.html';">Services</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link " aria-current="page" href="#">Blog</a>
+          <a class="nav-link   active" aria-current="page" href="#">Blog</a>
         </li>
         
       <li class="nav-item">
-        <a class="nav-link" href="#">Contact</a>
+        <a class="nav-link  active" href="#" onclick="window.location.href = 'funwork/index.html';" >Contact</a>
       </li>
       <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
           Collections
         </a>
         <ul class="dropdown-menu">
-          <li><a class="dropdown-item" href="#">Action</a></li>
-          <li><a class="dropdown-item" href="#">Another action</a></li>
-          <li><hr class="dropdown-divider"></li>
-          <li><a class="dropdown-item" href="#">Something else here</a></li>
+          <li><a class="dropdown-item" href="#" style="color: black; margin: 4px;">Action</a></li>
+          <li><a class="dropdown-item" href="#" style="color: black; margin: 4px;">Another action</a></li>
+          <li><a class="dropdown-item" href="#" style="color: black; margin: 4px;">Something else here</a></li>
         </ul>
         <li>
         <button  onmouseover="mouseOver(this)" onmouseout="mouseOut(this)" id="button" type="button" class="btn btn-secondary" class="rounded-pill">Get Started</button>
@@ -78,25 +78,57 @@
 </div>
 </nav>
 </section>
+
+
+
   <!-- navbar end -->
 
   <!-- second section start-->
-<div class="shadow-none p-3 mb-5 bg-light rounded">
-  <section class="secondsection">
+
+  <div class="grisecond">
+    <div class="sec2p">
+ 
+           <h3>Pair Apple Watch with your iPhone</h3>
+           <p>We are team of talented designers designed to connect iwatch to  mobile</p>
+           <button type="button" class="btn btn-secondary" class="rounded-pill ">Get Started</button>
+     
+    </div> 
+   <div class="box box2 " >
+ 
+     <img id="image">
+ 
+ </div>
+ </div>
+ <!--<div class="shadow-none p-3 mb-5 bg-light rounded">
+  
+ <div class="grid-container">
+    <div class="grid-item" >
+      <h3>Pair Apple Watch with your iPhone</h3>
+      <p>We are team of talented designers designed to connect iwatch to  mobile</p>
+      <button type="button" class="btn btn-secondary" class="rounded-pill ">Get Started</button>
+    </div>
+
+    <div class="grid-item" >
+       <img src="./images/undraw_watch_application_uhc9 (1).png" alt="" style="height: 300px;"> -->
+    <!-- <div class="box"><img id="pic"></div> -->
+    <!-- </div> -->
+    <!-- </div> -->
     
-    <div class="align">
+  <!-- </div>  -->
+  <!-- </div> --> 
+    <!-- <div class="align">
       <div class="secondsectionclass">
           <img src="./images/undraw_watch_application_uhc9 (1).png" alt="" class="img-responsive floating-image right">
       </div>
       <div class="content">
           <h3>Pair Apple Watch with your iPhone</h3>
           <p>We are team of talented designers designed to connect iwatch to  mobile</p>
-          <button type="button" class="btn btn-secondary" class="rounded-pill">Get Started</button>
+          <button type="button" class="btn btn-secondary" class="rounded-pill ">Get Started</button>
       </div>
-    </div>
+    </div> -->
         
-  </section>
-  </div>
+<!--   
+  </div> -->
       <!-- second section end-->
 
 
@@ -105,13 +137,13 @@
 <section class="third">
   
   <div class="thirdimg">
-  <p><img src="./images/third.png" height="300"
-    width="400">
+  <p><img  id="myImage" src="./images/third.png" style="height: 250px;width: 400px;" >
+  </div>
   <div class="sidethird">
  
     <h3>Family Setup-Your Family joined at the wrist</h3>
     
-<p>Family members who don't have an iPhone can stay in touch with Apple Watch.</p>
+    <p>Family members who don't have an iPhone can stay in touch with Apple Watch.</p>
 
   <div class="rowicon">
     
@@ -142,14 +174,14 @@
 <section class="fourth">
 
   <div class="head3">
-    <h4>Portfolio</h4>
-  <h3>Check our Apple Watch</h3><hr class="_hr">
+    <h4 style="padding-left: 35px;">Portfolio</h4>
+  <h3 style="padding-left: 40px;">Check our Apple Watch</h3><hr class="_hr">
 
 </div>
 
 <div>
 
-<nav class="navbar navbar-expand-lg ">
+<!-- <nav class="navbar navbar-expand-lg ">
   
     <div class="container justify-content-center">
       <ul class="navbar-nav  text-center" >
@@ -222,7 +254,85 @@
   </a>
   </div>
 </div>
-</div>
+</div> -->
+<!---------------------------------------------------------------------------------------------------->
+<!-- MAIN (Center website) -->
+<div class="main">
+
+  
+  
+  <div id="myBtnContainer" style="padding-left: 350px;">
+    <button class="btnx " onclick="filterSelection('all')"> Show all</button>
+    <button class="btnx" onclick="filterSelection('nature')"> App</button>
+    <button class="btnx" onclick="filterSelection('cars')"> Card</button>
+    <button class="btnx" onclick="filterSelection('people')"> Web</button>
+  </div>
+  
+  <!-- Portfolio Gallery Grid -->
+  <div class="row">
+    <div class="column nature">
+      <div class="content">
+        <img src="./images/1.jpg" alt="Mountains"  class="imgfourth" onclick="newDoc()">
+       
+      </div>
+    </div>
+    <div class="column nature">
+      <div class="content">
+      <img src="./images/2.jpeg" alt="Lights"  class="imgfourth" onclick="newDoc()">
+        
+      </div>
+    </div>
+    <div class="column nature">
+      <div class="content">
+      <img src="./images/3.jpg" alt="Nature"  class="imgfourth" onclick="newDoc()">
+        
+      </div>
+    </div>
+    
+    <div class="column cars">
+      <div class="content">
+        <img src="./images/4.jpeg" alt="Car"  class="imgfourth" onclick="newDoc()">
+        
+      </div>
+    </div>
+    <div class="column cars">
+      <div class="content">
+      <img src="./images/5.jpeg" alt="Car"  class="imgfourth" onclick="newDoc()">
+        
+      </div>
+    </div>
+    <div class="column cars">
+      <div class="content">
+      <img src="./images/6.jpeg" alt="Car"  class="imgfourth" onclick="newDoc()">
+        
+      </div>
+    </div>
+  
+    <div class="column people">
+      <div class="content">
+        <img src="./images/7.jpeg" alt="Car"  class="imgfourth" onclick="newDoc()">
+        
+      </div>
+    </div>
+    <div class="column people">
+      <div class="content">
+      <img src="./images/8.jpeg" alt="Car"  class="imgfourth" onclick="newDoc()">
+        
+      </div>
+    </div>
+    <div class="column people">
+      <div class="content">
+      <img src="./images/9.jpeg" alt="Car" class="imgfourth"  onclick="newDoc()">
+        
+      </div>
+    </div>
+  <!-- END GRID -->
+  </div>
+  
+  <!-- END MAIN -->
+  </div>
+
+
 </section>
       <!-- fourth section end-->
 
@@ -383,7 +493,7 @@
 
 
 
-
+<script src="cor.js"></script>
 <!--bootstrap bundle js -->
 <script src="javascript.js"></script>
   <script src="bootstrap/js/bootstrap.bundle.js"></script>

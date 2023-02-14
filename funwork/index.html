@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Google Maps Api</title>
+</head>
+<body>
+     
+    <h1>Drop Us a Mail</h1>
+
+<div class="setmap">
+    <div id="map">
+
+    <script async
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBbBTsw3a0xr_gDG89PMwd99dpxoE-y45A&callback=initMap">
+</script>
+</div>
+<div class="container">
+
+<p style="color:black">45 BC,a Latin professor at Hampden-Sydney College in Virginia</p>
+
+
+<label>Phone : </label>  <span>+91 976885083</span> 
+<br><label>Email : </label> <span>vivek.menguD16@gmail.com</span> 
+<br><label>Fax  : </label> <span>+91 9768850839</span> 
+
+<br>
+<h3>Want to Know More??Drop Us a Mail</h3>
+<br>
+<hr>
+<br>
+
+<form onsubmit="return myfunc()" action="#" class="login active" id="form">
+    <div class="form-group">
+         <div class="input-group">
+             <input type="text" id="name" placeholder="Firstname  Lastname">
+             
+             <i class='bx bxs-user' ></i>
+             <p id="none" style="text-align: center;"></p>
+             </div>
+         </div>
+
+         <div class="form-group">
+             <div class="input-group">
+                 <input type="text" id="email" placeholder="Email address">
+                 <i class='bx bx-envelope'></i>
+                 <p id="none1" style="text-align: center;"></p>
+                 </div>
+             </div>
+
+             <textarea id="textarea" cols="30" rows="5" placeholder="Your message here..." ></textarea>
+             <p id="lasttext" style="text-align: center;"></p>
+
+
+             <div class="form-group">
+                 <div class="input-group">
+                     <input type="text" id="Zipcode" placeholder="Zipcode">
+                     <i class='bx bx-package' ></i>
+                     <p id="none2" style="text-align: center;"></p>
+                     </div>
+                 </div>
+
+                 <div class="form-group">
+                     <div class="input-group">
+                         <input type="number" id="Phone number" placeholder="Contact Number">
+                         <i class='bx bxs-phone' ></i>
+                         <p id="none3" style="text-align: center;"></p>
+                         </div>
+
+                     </div>
+                     <p id="submit" style="text-align: center;"></p>
+                     <button type="submit" class="btn-submit" >SEND</button>
+
+                     
+    </form>
+</div>
+</div>
+<a href="../index.html"><button  >Go Back</button></a>
+   <script src="app.js"></script>
+
+</body>
+</html>

@@ -81,13 +81,17 @@ button{
 
 /* third section styling start */
 .third{
-    height: 330px;
-    padding-left: 160px;
+    height: 400px;
+    padding-left: 100px;
     padding-right: 160px;
 }
 
 .thirdimg img{
     float: left;
+    margin: 70px;
+    height: 300px;
+    width: 300px;
+
    
 } 
 
@@ -96,9 +100,8 @@ button{
     text-align: left;
     padding-right: 10px;
     border: 1px none;
-    padding-left: 10px;
+    padding-left: 500px;
     height: 300px;
-    padding-right: 80px;
 }
 
 
@@ -114,6 +117,8 @@ table,th,td{
 /* third section styling end */
 
 /* fourth section css styling start */
+
+  
 
 .fourth{
     background-color: #EEEDE7;
@@ -135,7 +140,7 @@ table,th,td{
   
 }
 
-.items{
+/* .items{
     padding-left: 180px;
     padding-right: 130px;
     display: grid;
@@ -143,17 +148,17 @@ table,th,td{
     
     
    
-}
+} */
 
-.item{
+/* .item{
     padding: 10px;
    
 
-}
+} */
 
-.portall{
+/* .portall{
     border: 3px solid black;
-}
+} */
 
 h3{
     font-family: 'Roboto', sans-serif;
@@ -168,8 +173,8 @@ h3{
    
     text-align: center;
   
-    height: 100px;
-    padding-top: 10px;
+    height: 130px;
+    padding-top: 1px;
 }
 .head5 h5{
     color: grey;
@@ -180,7 +185,7 @@ h3{
 
 .fifth{
     
-    padding-top: 30px;
+    padding-top: 60px;
     
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -316,16 +321,15 @@ address {
 }
 .head3{
     height: 100px;
+    /* text-align: center; */
 }
-.fourth{
-    height: 1050px;
-}
+
 .rowicon{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
 .row{
-    padding: 10px;
+    padding: 3px;
 }
 .iconlast{
     display: grid;
@@ -335,3 +339,156 @@ address {
 .eight2{
     padding-bottom: 2px;
 }
+a.active{
+    color:"#000";
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 5px 10px;
+    transition: 0.3s;
+}
+
+
+/* second section image */
+
+  
+ 
+
+  /* zoom in zoom out */
+  
+  #myImage {
+    width: 500px;
+    height: 500px;
+  }
+
+
+/* carosual*/
+
+
+
+.box {
+
+    width:60%;
+  
+    height: 70%;
+  
+    display: flex;
+  
+    justify-content: right;
+  
+  
+  
+  }
+  
+  .box img{
+  
+    width:90%;
+  
+    height: 90%;
+  
+  }
+  .box{
+  
+    padding-right: 50px;
+    margin: 60px;
+  } 
+  
+  
+ 
+  #myImage {
+    width: 200px;
+    height: 200px;
+  }
+
+  /* carosual */
+  .grisecond{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    height: 350px;
+    background-color:  #B2BEB5;
+  }
+  .sec2p{
+  padding-left: 150px;
+  margin: 60px;
+  }
+  /* .box2{
+  padding:50px;
+  } */
+
+  /* zoom in out */
+  #myImage {
+    width: 200px;
+    height: 200px;
+  }
+
+  /* filter////////////////////////////////////////////////////////////////////////////////////////*/
+
+  
+  /* Center website */
+  .main {
+    max-width: 3000px;
+    margin: auto;
+  }
+  
+
+  .row {
+   
+    
+  width: 80%;
+  }
+  
+  /* Add padding BETWEEN each column */
+  .row,
+  .row > .column {
+    padding: 6px;
+  }
+  
+  /* Create three equal columns that floats next to each other */
+  .column {
+    
+    /* float: left; */
+    width: 33.33%;
+    display: none; /* Hide all elements by default */
+   
+  }
+  
+  /* Clear floats after rows */ 
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Content */
+  .content {
+    background-color: white;
+    /* padding: 10px; */
+    
+  }
+  
+  /* The "show" class is added to the filtered elements */
+  .show {
+    display: block;
+  }
+  
+  /* Style the buttons */
+  .btnx {
+    border: none;
+    outline: none;
+    padding: 9px 16px ;
+    background-color: white;
+    cursor: pointer;
+    border-radius: 6px;
+  }
+  
+  .btnx :hover {
+    background-color: #ddd;
+  }
+  
+  .btnx .active {
+    background-color: #666;
+    color: white;
+  }
+  .imgfourth{
+    height: 200px;
+    width: 200px;
+  }
